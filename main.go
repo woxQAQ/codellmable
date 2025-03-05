@@ -143,7 +143,7 @@ func main() {
 		f.WriteString("\n")
 
 		return srcTemplate.Execute(f, map[string]any{
-			"project":  "ape-dts",
+			"project":  cfg.Project,
 			"filePath": relRoot,
 			"language": ext,
 			"src":      string(content),
