@@ -1,7 +1,0 @@
-project: ape-dts
-extraExcludePattern:
-  - dt-tests
-extraExcludeFileExt:
-  - toml
-source: /home/woxQAQ/ape-dts
-target: /home/woxQAQ/llm-code-reader/output
